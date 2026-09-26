@@ -4016,6 +4016,119 @@ const registrySource: RegistrySourceSkill[] = [
     description:
       "Diagnose page-load and interaction performance using browser traces, network evidence, and source code for Core Web Vitals and layout-shift investigations.",
   },
+  {
+    slug: "visual-pr",
+    user: "humanlayer",
+    repo: "skills",
+    rawUrl:
+      "https://raw.githubusercontent.com/humanlayer/skills/main/plugins/visual-pr/skills/visual-pr/SKILL.md",
+    githubUrl:
+      "https://github.com/humanlayer/skills/blob/main/plugins/visual-pr/skills/visual-pr/SKILL.md",
+    name: "visual-pr",
+    topics: ["visual", "craft", "tooling"],
+    description:
+      "Create or update a pull request description that helps reviewers understand why the change exists and the shape of the implementation.",
+  },
+  {
+    slug: "letterboxd-diary",
+    user: "joe-bell",
+    repo: "skills",
+    rawUrl:
+      "https://raw.githubusercontent.com/joe-bell/skills/main/skills/letterboxd-diary/SKILL.md",
+    githubUrl:
+      "https://github.com/joe-bell/skills/blob/main/skills/letterboxd-diary/SKILL.md",
+    name: "letterboxd-diary",
+    topics: ["tooling", "craft"],
+    description:
+      "Fetch recently watched films from a Letterboxd member diary RSS feed and render them as a compact markdown list.",
+  },
+  {
+    slug: "brag-slim",
+    user: "latent-spaces",
+    repo: "brag",
+    rawUrl:
+      "https://raw.githubusercontent.com/latent-spaces/brag/main/skills/brag-slim/SKILL.md",
+    githubUrl:
+      "https://github.com/latent-spaces/brag/blob/main/skills/brag-slim/SKILL.md",
+    name: "brag-slim",
+    topics: ["video", "motion", "frontend"],
+    description:
+      "Turn a project directory or website URL into a short, shareable launch video with music, motion, and share copy using tools already on the machine.",
+  },
+  {
+    slug: "prototyper-ui",
+    user: "PrototyperAI",
+    repo: "prototyper-ui",
+    rawUrl:
+      "https://raw.githubusercontent.com/PrototyperAI/prototyper-ui/main/apps/docs/skill/SKILL.md",
+    githubUrl:
+      "https://github.com/PrototyperAI/prototyper-ui/blob/main/apps/docs/skill/SKILL.md",
+    name: "prototyper-ui",
+    topics: ["frontend", "systems", "visual"],
+    description:
+      "Prototyper UI component library (Tailwind CSS v4 + Base UI) for installing components, customizing themes, and using component documentation.",
+  },
+  {
+    slug: "create-component",
+    user: "PrototyperAI",
+    repo: "prototyper-ui",
+    rawUrl:
+      "https://raw.githubusercontent.com/PrototyperAI/prototyper-ui/main/apps/docs/skill/create-component/SKILL.md",
+    githubUrl:
+      "https://github.com/PrototyperAI/prototyper-ui/blob/main/apps/docs/skill/create-component/SKILL.md",
+    name: "create-component",
+    topics: ["frontend", "architecture", "craft"],
+    description:
+      "Create new Prototyper UI components from scratch, including Base UI primitives, registry entries, examples, and MDX documentation.",
+  },
+  {
+    slug: "daisyui-colors",
+    user: "saadeghi",
+    repo: "daisyui",
+    rawUrl:
+      "https://raw.githubusercontent.com/saadeghi/daisyui/master/skills/daisyui/colors/SKILL.md",
+    githubUrl:
+      "https://github.com/saadeghi/daisyui/blob/master/skills/daisyui/colors/SKILL.md",
+    name: "daisyui-colors",
+    topics: ["color", "frontend", "visual"],
+    description: "Color rules and semantics for daisyUI 5 components and themes.",
+  },
+  {
+    slug: "daisyui-config",
+    user: "saadeghi",
+    repo: "daisyui",
+    rawUrl:
+      "https://raw.githubusercontent.com/saadeghi/daisyui/master/skills/daisyui/config/SKILL.md",
+    githubUrl:
+      "https://github.com/saadeghi/daisyui/blob/master/skills/daisyui/config/SKILL.md",
+    name: "daisyui-config",
+    topics: ["frontend", "tooling", "systems"],
+    description: "Configuration options and setup guidance for daisyUI 5.",
+  },
+  {
+    slug: "daisyui-install",
+    user: "saadeghi",
+    repo: "daisyui",
+    rawUrl:
+      "https://raw.githubusercontent.com/saadeghi/daisyui/master/skills/daisyui/install/SKILL.md",
+    githubUrl:
+      "https://github.com/saadeghi/daisyui/blob/master/skills/daisyui/install/SKILL.md",
+    name: "daisyui-install",
+    topics: ["frontend", "tooling"],
+    description: "Installation instructions for adding daisyUI 5 to a project.",
+  },
+  {
+    slug: "daisyui-usage",
+    user: "saadeghi",
+    repo: "daisyui",
+    rawUrl:
+      "https://raw.githubusercontent.com/saadeghi/daisyui/master/skills/daisyui/usage/SKILL.md",
+    githubUrl:
+      "https://github.com/saadeghi/daisyui/blob/master/skills/daisyui/usage/SKILL.md",
+    name: "daisyui-usage",
+    topics: ["frontend", "craft", "visual"],
+    description: "Usage rules and conventions for building interfaces with daisyUI 5.",
+  },
 ];
 
 const buildInitialPathSlug = (entry: RegistrySourceSkill) => {
